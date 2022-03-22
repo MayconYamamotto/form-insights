@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <title>Início</title>
+</head>
+
+<body class="bg-slate-100">
+
+  <div class="h-screen flex justify-center items-center ">
+    <div class="w-11/12 md:w-8/12 lg:w-6/12 bg-white p-10 rounded-lg border border-stone-200">
+      <div class="mb-6">
+        <h3 class="text-2xl font-medium leading-6 text-gray-900">Insights</h3>
+      </div>
+
+      <form
+        action="https://docs.google.com/forms/d/e/1FAIpQLScviWwXjH5886zLSpvO_OALfyjwOHP5egddna8eTHcvB1iqJQ/formResponse"
+        method="POST">
+        <div class="sm:rounded-md">
+          <div class="">
+            <div class="grid grid-cols-1 gap-6">
+              <div class="col-span-6 sm:col-span-3">
+                <label for="nome-campanha" class="block text-sm font-medium text-gray-700">Nome Campanha</label>
+                <input type="text" name="entry.2005620554" id="nome-campanha" autocomplete="given-name" required
+                  class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                  placeholder="Nome campanha">
+              </div>
+
+              <div class="col-span-6 sm:col-span-3">
+                <label for="veiculo" class="block text-sm font-medium text-gray-700">Veículo</label>
+                <select id="veiculo" name="entry.1818488511" autocomplete="veiculo-name" required
+                  class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                  <option disabled selected>Escolha o Veículo</option>
+                  <option value="Facebook">Facebook</option>
+                  <option value="Instagram">Instagram</option>
+                  <option value="FaceInsta">Facebook / Instagram</option>
+                </select>
+              </div>
+
+              <div class="col-span-6 sm:col-span-3">
+                <label for="objetivo" class="block text-sm font-medium text-gray-700">Objetivo</label>
+                <select id="objetivo" name="entry.1868623799" autocomplete="objetivo-name" required
+                  class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                  <option disabled selected>Escolha o Objetivo</option>
+                  <option value="Alcance">Alcance</option>
+                  <option value="Impressões">Impressões</option>
+                  <option value="Geração de Leads">Geração de Leads</option>
+                </select>
+              </div>
+
+              <div class="col-span-6 sm:col-span-3">
+                <label for="conta" class="block text-sm font-medium text-gray-700">Conta</label>
+                <select id="conta" name="entry.1946078221" autocomplete="conta-name" required
+                  class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                  <option disabled selected>Escolha a Conta</option>
+                  <option value="Careplus">Careplus</option>
+                  <option value="Careplus Clinic">Careplus Clinic</option>
+                </select>
+              </div>
+
+              <div class="col-span-6 sm:col-span-3">
+                <label for="mes" class="block text-sm font-medium text-gray-700">Mês</label>
+                <select id="mes" name="entry.1919284161" autocomplete="mes-name" required
+                  class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                  <option disabled selected>Escolha o mês</option>
+                  <option value="JANEIRO">Janeiro</option>
+                  <option value="FEVEREIRO">Fevereiro</option>
+                  <option value="MARÇO">Março</option>
+                  <option value="ABRIL">Abril</option>
+                  <option value="MAIO">Maio</option>
+                  <option value="JUNHO">Junho</option>
+                  <option value="JULHO">Julho</option>
+                  <option value="AGOSTO">Agosto</option>
+                  <option value="SETEMBRO">Setembro</option>
+                  <option value="OUTUBRO">Outubro</option>
+                  <option value="NOVEMBRO">Novembro</option>
+                  <option value="DEZEMBRO">Dezembro</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <button type="submit"
+            class="inline-flex justify-center mt-4 w-full py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Salvar Insight</button>
+        </div>
+      </form>
+    </div>
+
+    <p class="fixed bottom-2 text-gray-400">Feito por <a href="https://www.instagram.com/maycon_yamamotto/" class="text-gray-500" target="_BLANK">@maycon_yamamotto</a></p>
+  </div>
+
+</body>
+
+</html>
+
+html
